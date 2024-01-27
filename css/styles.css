@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+}
+
+header {
+  background-image: url("../media/header2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+header h1 {
+  text-align: center;
+  font-size: 55px;
+  color: #000000;
+  padding: 220px 0;
+}
+
+.contenedor {
+  max-width: 1400px;
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  contain: paint;
+}
+
+.contenedor .contenedor-items {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap: 30px;
+  grid-row-gap: 30px;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.contenedor .contenedor-items .item {
+  max-width: 250px;
+  padding: 10px;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.3s;
+  height: 100%;
+}
+.contenedor-items .item:hover {
+  box-shadow: 0 0 10px black;
+  scale: 1.05;
+}
+
+.contenedor-items .item .img-item {
+  width: 100%;
+}
+
+.contenedor-items .item .titulo-item {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.contenedor-items .item .precio-item {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.contenedor-items .item .boton-item {
+  display: block;
+  margin: 10px auto;
+  border: none;
+  background: rgb(71, 11, 88);
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* estilos para el carrito */
+.carrito {
+  border: 1px solid #000000;
+  width: 50%;
+  margin-top: 30px;
+  margin-left: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: auto;
+  position: sticky !important;
+  top: 0;
+  transition: 0.3s;
+  margin-right: 0;
+}
+.carrito .header-carrito {
+  background-color: rgb(71, 11, 88);
+  color: rgb(238, 224, 224);
+  text-align: center;
+  padding: 30px 0;
+}
+
+.carrito .carrito-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-bottom: 1px solid #666;
+  padding: 20px;
+}
+.carrito .carrito-item img {
+  margin-right: 20px;
+}
+
+.carrito .carrito-item .carrito-item-titulo {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.carrito .carrito-item .selector-cantidad {
+  display: inline-block;
+  margin: 25px;
+}
+.carrito .carrito-item .carrito-item-cantidad {
+  border: none;
+  font-size: 25px;
+  background: transparent;
+  display: inline-block;
+  width: 30px;
+  padding: 5px;
+  text-align: center;
+}
+.carrito .carrito-item .selector-cantidad i {
+  font-size: 18px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+.carrito .carrito-item .carrito-item-precio {
+  font-weight: bold;
+  display: inline-block;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.carrito .carrito-item .btn-eliminar {
+  position: absolute;
+  right: 25px;
+  top: 50px;
+  color: black;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid black;
+  cursor: pointer;
+  display: block;
+  background: transparent;
+  z-index: 20;
+}
+.carrito .carrito-item .btn-eliminar i {
+  pointer-events: none;
+}
+.carrito-total {
+  background-color: #f3f3f3;
+  padding: 30px;
+}
+.carrito-total .fila {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.carrito-total .btn-pagar {
+  display: block;
+  width: 100%;
+  border: none;
+  background: rgb(71, 11, 88);
+  color: white;
+  border-radius: 5px;
+  font-size: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.carrito-total .btn-pagar:hover {
+  scale: 1.05;
+}
+
+#Buscador{
+  background-color: rgb(238, 224, 240);
+  font-size: 30px;
+  margin: 40px;
+}
+
+footer {
+  background-image: url("../media/header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  margin-top: 30px;
+}
+
+/* hacer responsiva nuestra pagina*/
+@media screen and (max-width: 850px) {
+  .contenedor {
+    display: block;
+  }
+  .contenedor-items {
+    width: 100% !important;
+  }
+  .carrito {
+    width: 100%;
+  }
+}

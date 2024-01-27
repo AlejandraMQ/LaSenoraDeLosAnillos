@@ -1,0 +1,122 @@
+[
+    {
+      "id":1,
+      "nombre": "Anillo Zafiro",
+      "img": "./media/1.jpg",
+      "alt": "Anillo de oro con zafiro azul",
+      "categoria":"anillo",
+      "precio": 500000
+    },
+    {
+      "id":2,
+      "nombre": "Anillo Diamante",
+      "img": "./media/2.jpg",
+      "alt": "Anillo con diamante al centro",
+      "categoria":"anillo",
+      "precio": 180000
+    },
+    {
+      "id":3,
+      "nombre": "Anillo Espiga",
+      "img": "./media/3.jpg",
+      "alt": "Anillo decoracion espiga oro y plata 925",
+      "categoria":"anillo",
+      "precio": 150000
+    },
+    {
+      "id":4,
+      "nombre": "Anillo Piedra Luna",
+      "img": "./media/4.jpg",
+      "alt": "Anillo con piedra luna al centro",
+      "categoria":"anillo",
+      "precio": 100000
+    },
+    {
+      "id":5,
+      "nombre": "Anillo Doble",
+      "img": "./media/5.jpg",
+      "alt": "Anillo doble con diamantes",
+      "categoria":"anillo",
+      "precio": 138000
+    },
+    {
+      "id":6,
+      "nombre": "Anillo Trenzado",
+      "img": "./media/6.jpg",
+      "alt": "Anillo Trenzado con cristalería",
+      "categoria":"anillo",
+      "precio": 120000
+    },
+    {
+      "id":7,
+      "nombre": "Anillo Corazón",
+      "img": "./media/7.jpg",
+      "alt": "Anillo con forma de corazón",
+      "categoria":"anillo",
+      "precio": 155000
+    },
+    {
+      "id":8,
+      "nombre": "Anillo Compromiso",
+      "img": "./media/8.jpg",
+      "alt": "Anillo de compromiso",
+      "categoria":"anillo",
+      "precio": 350000
+    },
+    {
+      "id":9,
+      "nombre": "Anillo Amatista",
+      "img": "./media/9.jpg",
+      "alt": "Anillo de oro con Amatista",
+      "categoria":"anillo",
+      "precio": 300000
+    },
+    {
+      "id":10,
+      "nombre": "Collar Amatista",
+      "img": "./media/10.jpg",
+      "alt": "Collar de oro 18K con Amatista",
+      "categoria":"collar",
+      "precio": 410000
+    },
+    {
+      "id":11,
+      "nombre": "Colleras Escorpión",
+      "img": "./media/11.jpg",
+      "alt": "Colleras de oro 18k escorpión",
+      "categoria":"colleras",
+      "precio": 310000
+    },
+    {
+      "id":12,
+      "nombre": "Colleras llave",
+      "img": "./media/12.jpg",
+      "alt": "Colleras llave musical oro 18K",
+      "categoria":"colleras",
+      "precio": 330000
+    },
+    {
+      "id":13,
+      "nombre": "Aro nariz 18K",
+      "img": "./media/13.jpg",
+      "alt": "Aro o piercing nariz oro 18k",
+      "categoria":"aro",
+      "precio": 75000
+    },
+    {
+      "id":14,
+      "nombre": "Aro Eder 18K",
+      "img": "./media/14.jpg",
+      "alt": "Pendientes tipo argolla con cristalería y oro de 18K",
+      "categoria":"aro",
+      "precio": 95000
+    },
+    {
+      "id":15,
+      "nombre": "Aro Piercing 18K",
+      "img": "./media/15.jpg",
+      "alt": "Piercing con cristaleria oro 18K",
+      "categoria":"aro",
+      "precio": 135000
+    }
+  ]
